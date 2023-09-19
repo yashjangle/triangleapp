@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz.css" />
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="page-heading">All about triangles</h1>
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li><a class="nav-link" href="index.html">Is triangle?</a></li>
+                <li><a class="nav-link" href="hypotenuse.html">Hypotenuse</a></li>
+                <li>
+                    <a class="nav-link" href="areaOfTriangle.html">Area of traingle</a>
+                </li>
+                <li><a class="nav-link" href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <h1 class="quiz-heading">Welcome to short quiz!</h1>
+        <form class="form-quiz">
+            <div class="question-container">
+                <p>If a triangle has an angle of 90°, what is it called?</p>
+                <label><input class="radio-btn" type="radio" name="question1" value="acute" />Acute</label>
+                <label><input class="radio-btn" type="radio" name="question1" value="right"
+                        id="correct-1" />Right</label>
+                <label><input class="radio-btn" type="radio" name="question1" value="obtuse" />Obtuse</label>
+            </div>
+            <div class="question-container">
+                <p>How many degrees are there in a triangle?</p>
+                <label><input class="radio-btn" type="radio" name="question2" value="100°" />100°</label>
+                <label><input class="radio-btn" type="radio" name="question2" value="180°" id="correct-2" />180°</label>
+                <label><input class="radio-btn" type="radio" name="question2" value="120°" />120°</label>
+            </div>
+            <div class="question-container">
+                <p>What is the sum of the exterior angles of a triangle?</p>
+                <label><input class="radio-btn" type="radio" name="question3" value="180°" />180°</label>
+                <label><input class="radio-btn" type="radio" name="question3" value="270°" />270°</label>
+                <label><input class="radio-btn" type="radio" name="question3" value="360°" id="correct-3" />360°</label>
+            </div>
+            <div class="question-container">
+                <p>
+                    The ratio of the interior angles of a triangle are in a 2:3:5 ratio.
+                    Find the smallest angle measure.
+                </p>
+                <label><input class="radio-btn" type="radio" name="question4" value="18°" />18°</label>
+                <label><input class="radio-btn" type="radio" name="question4" value="36°" id="correct-4" />36°</label>
+                <label><input class="radio-btn" type="radio" name="question4" value="54°" />54°</label>
+            </div>
+            <div class="question-container">
+                <p>
+                    What is the measure of one external angle of an equilateral
+                    triangle?
+                </p>
+                <label><input class="radio-btn" type="radio" name="question5" value="30°" />30°</label>
+                <label><input class="radio-btn" type="radio" name="question5" value="60°" />60°</label>
+                <label><input class="radio-btn" type="radio" name="question5" value="120°" id="correct-5" />120°</label>
+            </div>
+        </form>
+
+        <button class="submit-btn">Submit!</button>
+        <div class="output"></div>
+    </div>
+</body>
+<script src="quiz.js"></script>
+</body>
+
+</html>
